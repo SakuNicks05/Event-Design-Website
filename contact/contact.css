@@ -1,0 +1,235 @@
+.logo {
+    font-family: 'Beau Rivage', cursive;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+.navbar {
+    color: white;
+    width: 98.5%;
+    position: absolute;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7D614F; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding-right: 15px;
+    margin-right: 30px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    width: 120px;
+}
+
+.navbar a:hover {
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.navbar li {
+    float: right;
+}
+
+
+.background {
+    background: url('golden.jpg');
+    width: 100%;
+    height: 270vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    filter: blur(3px);
+}
+
+.tint {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 302vh;
+    width: 100vw;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.create {
+    color: white;
+    font-family: 'Beau Rivage', cursive;
+    font-size: 70px;
+    text-align: center;
+    margin-top: -1650px;
+    position: relative;
+    z-index: 2;
+}
+
+.fill {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin-top: -70px;
+    font-weight: 100;
+}
+
+.black_container {
+    background-color: black;
+    height: 1250px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: -10px;
+    position: relative;
+    z-index: 3;
+    border-radius: 15px;
+    opacity: 80%;
+    filter: blur(4px);
+}
+
+.input-group{
+    margin: 15px 0;
+    position: relative;
+}
+
+.black_group{
+    margin-top: -1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 4;
+}
+
+.input-group label{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 15px;
+    font-size: 16px;
+    pointer-events: none;
+    color: grey;
+    padding: 0 5px;
+    transition: .5s;
+    font-family: 'Inria Serif', serif;
+}
+
+.input-group input{
+    width: 500px;
+    height: 60px;
+    color: white;
+    font-size: 16px;
+    padding: 5px -25px;
+    border: 1.2px solid white;
+    background: transparent;
+    outline: none;
+    border-radius: 5px;
+    text-indent: 15px;
+    font-family: 'Inria Serif', serif;
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label{
+    top: 0;
+    font-size: 14px;
+    background-color: #140e09;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 5;
+}
+
+button {
+    margin-top: 120px;
+    background-color: #A16845;
+    color: white;
+    font-family: 'Beau Rivage', cursive;
+    border-style: none;
+    font-size: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 80px;
+    padding-left: 80px;
+    border-radius: 15px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #2a1d15;
+    transition: background 0.2s ease-in-out;
+}
+
+.last {
+    background: linear-gradient(to bottom, #72452A, #351E10);
+    height: 380px;
+    width: 100vw;
+    margin-top: -10px;
+    position: relative;
+    z-index: 6;
+}
+
+.business {
+    color: white;
+    font-family: 'Beau Rivage', cursive;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.details {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+    margin-top: -50px;
+    line-height: 50px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: white; 
+    font-size: 40px;
+    margin: 15px;
+    text-decoration: none;
+    position: relative;
+    z-index: 7;
+}
+.social-icons a:hover {
+    color: #ccc; 
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
