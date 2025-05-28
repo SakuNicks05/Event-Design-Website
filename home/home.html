@@ -13,44 +13,50 @@
 <body>
     <div class="navbar">
         <div class="logo">
-            <p>SC</p>
+            <p><a href="home.html">SC</a></p>
         </div>
         <ul>
-            <li id="community"><a href="../contact/contact.html">Contact</a></li>
-            <li id="gallery"><a href="../gallery/gallery.html">Gallery</a></li>
-            <li id="services"><a href="../services/services.html">Services</a></li>
-            <li id="about"><a href="../about/about.html">About</a></li>
+            <li id="community"><a class="others" href="../contact/contact.html">Contact</a></li>
+            <li id="gallery"><a class="others" href="../gallery/gallery.html">Gallery</a></li>
+            <li id="services"><a class="others" href="../services/services.html">Services</a></li>
+            <li id="about"><a class="others" href="../about/about.html">About</a></li>
         </ul>
     </div>
     <section>
         <div class="background">
             <div class="black_tint"></div>
-            <div class="white_circle hidden"></div>
+            <div class="circle_container">
+                <div class="white_circle hidden"></div>
+            </div>
             <div>
                 <p class="nadine home_desc hidden">Nadine's Events</p>
-                <p class="home_desc para hidden"> Bringing your dream events to life with creativity and elegance. 
-                    Every detail is designed to perfection. 
-                    From intimate gatherings to grand celebrations, we make it unforgettable. Let’s create something amazing together!
-                </p>
+                <div class="paragraph_container">
+                    <p class="para hidden"> Bringing your dream events to life with creativity and elegance. 
+                        Every detail is designed to perfection. 
+                        From intimate gatherings to grand celebrations, we make it unforgettable. Let’s create something amazing together!
+                    </p>
+                </div>
             </div>
         </div>
     </section>
-    <div class="wave-background">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#9C7758" fill-opacity="1" d="M0,128L34.3,149.3C68.6,171,137,213,206,208C274.3,203,343,149,411,138.7C480,128,549,160,617,160C685.7,160,754,128,823,138.7C891.4,149,960,203,1029,197.3C1097.1,192,1166,128,1234,101.3C1302.9,75,1371,85,1406,90.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
-        </svg>
-    </div>    
-    <section class="second_section">
-        <p class="what_we_offer hidden">What We Offer</p>
-        <p class="offer_desc hidden">We design and curate stunning events tailored to your unique vision, whether it’s an intimate gathering, a luxurious wedding, or a grand corporate celebration. From conceptualizing themes and selecting decor to managing logistics and ensuring flawless execution, we handle every detail with creativity and precision to craft unforgettable experiences.</p>
-        <div class="second_img hidden">
-            <img src="party.jpg">
-            <img src="balloons.webp">
-            <img src="white-bg.jpg">    
-        </div>
-    </section>
-    <div class="book">
-        <button class="hidden">Book a Consultation</button>
+    <div class="main_container">
+        <div class="wave-background">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#9C7758" fill-opacity="1" d="M0,128L34.3,149.3C68.6,171,137,213,206,208C274.3,203,343,149,411,138.7C480,128,549,160,617,160C685.7,160,754,128,823,138.7C891.4,149,960,203,1029,197.3C1097.1,192,1166,128,1234,101.3C1302.9,75,1371,85,1406,90.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
+            </svg>
+        </div>    
+        <section class="second_section">
+            <p class="what_we_offer hidden">What We Offer</p>
+            <p class="offer_desc hidden">We design and curate stunning events tailored to your unique vision, whether it’s an intimate gathering, a luxurious wedding, or a grand corporate celebration. From conceptualizing themes and selecting decor to managing logistics and ensuring flawless execution, we handle every detail with creativity and precision to craft unforgettable experiences.</p>
+            <div class="second_img hidden">
+                <img src="party.jpg">
+                <img src="balloons.webp">
+                <img src="white-bg.jpg">    
+            </div>
+            <div class="book">
+                <button class="hidden">Book a Consultation</button>
+            </div>
+        </section>
     </div>
     <script src="show_hidden.js"></script>
 </body>
