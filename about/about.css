@@ -13,6 +13,11 @@ html {
     font-size: 62.5%;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 .black_tint {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
@@ -81,17 +86,23 @@ html {
     float: right;
 }
 
+#nadine-bio-container {
+    display: flex;
+    align-items: center;
+}
+
 .nadine_bio {
+    display: flex;
+    align-items: center;
     color: white;
     position: absolute;
     z-index: 2;
     font-family: 'Poppins', sans-serif;
-    width: 40%;
+    width: 45%;
     text-align: center;
-    margin-top: -350px;
-    margin-left: 100px;
+    margin-left: 10rem;
     font-weight: 100;
-    line-height: 40px;
+    line-height: 4rem;
     font-size: 2em;
 }
 
@@ -100,95 +111,121 @@ html {
     position: absolute;
     z-index: 2;
     font-family: 'Beau Rivage', cursive;
-    margin-top: -150px;
-    margin-left: 240px;
-    font-size: 55px;
+    margin-top: 40rem;
+    margin-left: 32rem;
+    font-size: 6em;
 }
 
 .bio_images img {
     height: 250px;
     width: auto;
     position: absolute;
-    z-index: 3;
+    z-index: 5;
     border-radius: 15px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 #first_pic {
-    margin-top: -300px;
-    margin-left: 850px;
-    z-index: 4;
+    margin-top: -14rem;
+    margin-left: -52rem;
 }
 
 #second_pic {
-    margin-top: -430px;
-    margin-left: 700px;
+    margin-right: 15rem;
+    margin-left: -32rem;
 }
 
 .second_bg {
-    background: linear-gradient(to bottom, #744F34, #9F7657, #403025, #000000);
-    height: 1000px;
-    margin-top: -80px;
+    background: #9F7657;
+    height: auto;
+    width: auto;
+    margin-top: -7rem;
 }
 
 .expertise {
     color: white;
     position: relative;
     font-family: 'Beau Rivage', cursive;
-    font-size: 65px;
+    font-size: 6.5em;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 5rem;
 }
 
 .desc {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
+    font-size: 1.4em;
 }
 
-.experience {
+/* .experience {
     width: 38%;
     text-align: center;
     margin-left: 80px;
     line-height: 35px;
+} */
+
+.white_line_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .white_line {
     background-color: white;
     width: 1px;
-    height: 340px;
-    margin-top: -15px;
-    margin-left: 590px;
+    height: 34rem;
+    margin-top: 24rem;
     position: absolute;
 }
 
-.tldr {
-    margin-left: 800px;
-    margin-top: -300px;
+.main_expertise_container {
+    display: flex;
 }
 
-.list {
-    margin-left: 700px;
-    line-height: 35px;
+.experience {
+    width: 38%;
+    text-align: center;
+    margin-left: 8rem;
+    line-height: 3.5rem;
+    margin-top: -2rem;
+    font-size: 1.4em;
+    position: relative;
+}
+
+.list_container {
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 3.2em;
+    margin-left: -52rem;
+    margin-top: -4rem;
 }
 
 .approach {
     color: white;
     font-family: 'Beau Rivage', cursive;
-    font-size: 65px;
+    font-size: 6.5em;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 4rem;
 }
 
 .mission {
     color: white;
+    font-size: 1.8em;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     text-align: center;
     width: 70%;
-    margin-top: -30px;
-    margin-left: 200px;
-    line-height: 40px;
+    margin-top: -3rem;
+    /* margin-left: 20rem; */
+    line-height: 4rem;
+}
+
+.mission_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
 }
 
 .hidden {
